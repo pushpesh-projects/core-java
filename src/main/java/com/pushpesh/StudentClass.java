@@ -42,7 +42,9 @@ A class is like a blue print and we can create as many objects using that class.
 A class is also referred as type and an object is also referred as instance.
 We have to use the new keyword for creating an object of non-primitive data type or user defined data type.
 Student raja = new Student();
-Here raja is the reference which points to the Student object created using the new keyword.
+Here raja is the reference which points to the Student object created using the new keyword. raja contains the address of objects. using dot varibale we can access class member variables and methods.
+Primitive datatype: Integer, Char, boolean , byte
+Non primitive data type: String, Class, Interface, Arrays
 Using a class, we can create many objects. For accessing any object we need a reference. Multiple references can point to the same object.
 The reference can be changed to point to a new object.
 A reference can be nulled (or assigned to null), so that it does not point to any object.
